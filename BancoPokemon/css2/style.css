@@ -1,0 +1,36 @@
+body{
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.card:hover{
+    transform: scale(1.10);
+}
+
+
+/*Diseño del grafico*/
+
+.bar-chart {
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+    border: 1px solid #333;
+    position: relative;
+}
+
+.bar {
+    width: 50px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+}
+
+.bar:nth-child(2) {
+    left: 100px;
+}
+
+.bar:nth-child(3) {
+    left: 200px;
+}
